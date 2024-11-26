@@ -1,0 +1,22 @@
+html, body {
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    background-color: #F55A5A;
+    text-align: center;
+    justify-content: center;
+    font-size: 14.46px;
+    color: #fff;
+    
+    
+}
+
+nav img{
+    width: 24px;
+    height: 24px;
+    color: #DADADA;
+    margin-top: 10px;
+    margin-right: 5px;
+}
