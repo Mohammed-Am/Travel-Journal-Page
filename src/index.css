@@ -3,7 +3,7 @@ html, body {
     font-family: "Inter", serif;
 }
 
-nav{
+header{
     display: flex;
     background-color: #F55A5A;
     text-align: center;
@@ -13,11 +13,12 @@ nav{
     height: 55px;
     font-weight: 500;
 
+
     
     
 }
 
-nav > img{
+header > img{
     width: 24px;
     height: 24px;
     font-weight: 700;
@@ -26,7 +27,6 @@ nav > img{
 }
 
 main{
-    width: 75%;
     height: 168px;
     display:  flex;
     flex-direction: row;
@@ -50,9 +50,11 @@ main{
     padding-left: 25px;
 }
 
+
 .first-info {
     display: flex;
     flex-direction: row;
+    margin-bottom: 35px;
 }
 
 
@@ -82,8 +84,10 @@ main{
 
 .second-info h3{
     font-weight: 700;
-    font-size: 25px;
+    font-size: 17px;
     color: #2B283A;
+    margin-top: -28px;
+
 
 }
 
@@ -95,7 +99,7 @@ main{
     display: flex;
     flex-direction: row;
     font-weight: 700;
-    font-size: 25.24px;
+    font-size: 18.24px;
     line-height: 12.39px;
     color: #2B283A;
 }
