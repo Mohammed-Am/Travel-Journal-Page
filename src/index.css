@@ -26,7 +26,7 @@ nav > img{
 }
 
 main{
-    width: 471px;
+    width: 75%;
     height: 168px;
     display:  flex;
     flex-direction: row;
@@ -40,8 +40,8 @@ main{
 
 
 .first-position > img{
-    width: 125px;
-    height: 168px;
+    width: 165px;
+    height: 208px;
     border-radius: 5px;
     display: block;
 }
@@ -76,6 +76,7 @@ main{
 .place-link{
     font-size: 10.24px;
     line-height: 12.39px;
+    padding-left: 25px;
     color: #918E9B;
 }
 
@@ -94,7 +95,7 @@ main{
     display: flex;
     flex-direction: row;
     font-weight: 700;
-    font-size: 10.24px;
+    font-size: 25.24px;
     line-height: 12.39px;
     color: #2B283A;
 }
