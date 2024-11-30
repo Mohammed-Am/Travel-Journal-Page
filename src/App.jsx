@@ -5,12 +5,15 @@ import getUrl from './data'
 
 export default function App(){
     const places = data.map(
-        place => <Entry 
-                key = {place.id}
-                entry = {place}
+        entry => <Entry 
+                key = {entry.id}
+                {...entry}
         
         />    
+
     )
+    console.log(places);
+
     return(
         <>
           <Header />
