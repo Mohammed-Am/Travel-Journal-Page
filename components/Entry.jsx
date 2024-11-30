@@ -1,11 +1,11 @@
-export default function Entry(props){
+export default function Entry({entry}){
     return(
         <main>
             <div className="first-position"> 
             <img 
                     className="main-image"
-                    src={props.img.src} 
-                    alt={props.img.alt}  
+                    src={entry.img.src} 
+                    alt={entry.img.alt}  
                 />            </div>
             <div className="seconde-position">
                  <div className="first-info">
@@ -13,23 +13,23 @@ export default function Entry(props){
                         <img className="marker-icon" src="/images/map-marker.webp" />
                       </div>
                      <div>
-                        <h4 className="place-name">{props.country}</h4>
+                        <h4 className="place-name">{entry.country}</h4>
                      </div>
                      
                      <div>
-                        <a className="place-link" target="_blank" href={props.googleMapsLink}>View on Google Maps</a>
+                        <a className="place-link" target="_blank" href={entry.googleMapsLink}>View on Google Maps</a>
                      </div>
                      
                  </div>
                  <div className="second-info">
-                    <h3 className="place-visit">{props.title}</h3>
+                    <h3 className="place-visit">{entry.title}</h3>
                  </div>
                  <div className="thirt-info">
-                    <p>{props.dates}</p>
+                    <p>{entry.dates}</p>
                   
                  </div>
                  <div className="forth-info">
-                    <p>{props.text}</p>
+                    <p>{entry.text}</p>
                  </div>
             </div>
         </main>
