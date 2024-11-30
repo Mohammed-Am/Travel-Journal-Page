@@ -17,7 +17,7 @@ export default function Entry(props){
                      </div>
                      
                      <div>
-                        <a className="place-link" target="_blank" href="{props.googleMapsLink}">View on Google Maps</a>
+                        <a className="place-link" target="_blank" href={props.googleMapsLink}>View on Google Maps</a>
                      </div>
                      
                  </div>
